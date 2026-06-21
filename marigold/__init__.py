@@ -37,5 +37,9 @@ from .marigold_normals_pipeline import (
     MarigoldNormalsPipeline,  # noqa: F401
     MarigoldNormalsOutput,  # noqa: F401
 )
+from .marigoldpm_depth_pipeline import (
+    MarigoldPMDepthPipeline,  # noqa: F401
+    MarigoldPMVideoOutput,  # noqa: F401
+)
 
 MarigoldPipeline = MarigoldDepthPipeline  # for backward compatibility
